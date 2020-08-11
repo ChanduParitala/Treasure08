@@ -40,9 +40,8 @@ Explanation 1:
 Because all of the first "n = 1000000000000"letters of the infinite string are a, we print  on a new line.
 */
 #include <bits/stdc++.h>
-
 using namespace std;
-
+//--------------------------------------------------------------------------------------------------------------
 // Complete the repeatedString function below.
 long repeatedString(string s, long n) 
 {   long count=0;
@@ -62,7 +61,7 @@ long repeatedString(string s, long n)
     }
    return count;
 }
-
+//-------------------------------------------------------------------------------------------------------------------
 int main()
 {
     ofstream fout(getenv("OUTPUT_PATH"));
