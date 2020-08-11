@@ -18,7 +18,6 @@ Output Format:
 Return the total number of matching pairs of socks that John can sell.
 
 Sample Input:
-
 9
 10 20 20 10 10 30 50 10 20
 
@@ -26,11 +25,10 @@ Sample Output:
 3
 */
 #include <bits/stdc++.h>
-
 using namespace std;
 
 vector<string> split_string(string);
-
+//--------------------------------------------------------------------------------------------------------
 // Complete the sockMerchant function below.
 int sockMerchant(int n, vector<int> ar) 
 {
@@ -46,7 +44,7 @@ int sockMerchant(int n, vector<int> ar)
     }
 return count;
 }
-
+//-----------------------------------------------------------------------------------
 int main()
 {
     ofstream fout(getenv("OUTPUT_PATH"));
