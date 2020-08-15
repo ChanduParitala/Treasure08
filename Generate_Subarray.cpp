@@ -56,4 +56,5 @@ int main()
 	}
 	vector<int> op;
 	solve(arr,op);
+	return 0;
 }
